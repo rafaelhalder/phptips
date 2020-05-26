@@ -1,0 +1,28 @@
+{
+    "name": "rafaelhalder/phptips",
+    "description": "testando phptips",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael Henrique",
+            "email": "rafaelhalder@gmail.com",
+            "role": "Gambiarrista",
+            "homepage": "https://facebook.com.br/leRafael"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "6.0.*"
+    }
+}
